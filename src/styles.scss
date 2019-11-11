@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~@ng-select/ng-select/themes/default.theme.css";
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+@import "~@ng-select/ng-select/themes/material.theme.css";
+// COLORES
+$rojo: #e61212;
+$verde: #14b26a;
+$amarillo: #ffc51d;
+$negro: #000;
+$blanco: #fff;
+$azul: #1c6ca6;
+$naranja: #ffa51d;
+$gris: #333;
+$transparente: rgba(0, 0, 0, 0);
