@@ -10,12 +10,12 @@ import { SearchResult } from '../Models/SearchResult';
 export class SearchPedidoService {
 
   constructor(private http: HttpClient) { }
-  URL: string;
+  URL: string = 'https://jsonplaceholder.typicode.com/todos/1';
 
   searchPedido(query: string): Observable<any[]> {
 
-    alert('HAS BUSCADO ESTo' + query);
-    console.log('HAS BUSCADO ESTO' + query);
+    //alert('HAS BUSCADO ESTo' + query);
+    console.log('SearchPedidoService HAS BUSCADO ESTO' + query);
 
     //const _URL = URL; add params
 

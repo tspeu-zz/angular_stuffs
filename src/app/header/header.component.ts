@@ -26,10 +26,10 @@ export class HeaderComponent implements OnInit {
 
   updateResults(results: SearchResult[]): void {
     this.results = results;
-    // console.log("results:", this.results); // uncomment to take a look
+    console.log("<----HeaderComponent results:--->", this.results); // uncomment to take a look
   }
   goToRoute(route: string) {
-    console.log(' ---> vamos pata la ruta', route);
+    console.log(' --->HeaderComponent  vamos pata la ruta', route);
     this.router.navigate([`/${route}`]);
   }
   search() {
